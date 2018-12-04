@@ -4,7 +4,7 @@ This bundle allows you to automate actions in Slack
 
 ## To install
 ---
-
+Change the folder name to `Slack.scptd`
 Clone this repository into `~/Library/Script Libraries`
 
 The scripts are now accessible globally. Documentation can be found in the script Library.
