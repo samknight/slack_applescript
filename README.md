@@ -14,6 +14,14 @@ The scripts are now accessible globally. Documentation can be found in the scrip
 ## To use
 ---
 
+all of the commands below can be accessed by nesting them under the script call
+
+```
+ tell script 'Slack'
+   ...
+ end tell
+```
+
 The library can manage several tasks in v1.0
 - Switch workspaces
 ```
