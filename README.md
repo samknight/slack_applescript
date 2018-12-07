@@ -17,7 +17,7 @@ The scripts are now accessible globally. Documentation can be found in the scrip
 all of the commands below can be accessed by nesting them under the script call
 
 ```
- tell script 'Slack'
+ tell script "Slack"
    ...
  end tell
 ```
