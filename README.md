@@ -2,6 +2,10 @@
 
 This bundle allows you to automate actions in Slack
 
+## Important note
+
+Please use v1.0.1 and above for Slack ~4.3.3 and above
+
 ## To install
 ---
 Clone this repository into `~/Library/Script Libraries`
