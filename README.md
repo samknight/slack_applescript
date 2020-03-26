@@ -8,7 +8,7 @@ Please use v1.0.1 and above for Slack ~4.3.3 and above
 
 ## To install
 ---
-Clone this repository into `~/Library/Script Libraries`
+Clone this repository into `~/Library/Script Libraries` (If this doesn't work try putting it in `~/Library/Scripting Libraries`)
 
 Change the folder name to `Slack.scptd`
 
