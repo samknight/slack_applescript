@@ -14,6 +14,10 @@ Change the folder name to `Slack.scptd`
 
 The scripts are now accessible globally. Documentation can be found in the script Library.
 
+## Applescript tutorial
+---
+
+If you need a beginners guide to applescript please look at [my blog post](https://www.samknight.co.uk/2018/12/13/automating-slack-with-applescript.html)
 
 ## To use
 ---
