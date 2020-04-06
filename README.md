@@ -2,6 +2,9 @@
 
 This bundle allows you to automate actions in Slack
 
+Please consider buying me a coffee if this has made your work easier
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C31L438)
+
 ## Important note
 
 Please use v1.0.1 and above for Slack ~4.3.3 and above
