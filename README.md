@@ -3,6 +3,7 @@
 This bundle allows you to automate actions in Slack
 
 Please consider buying me a coffee if this has made your work easier
+
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C31L438)
 
 ## Important note
