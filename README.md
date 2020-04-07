@@ -49,9 +49,7 @@ The library can manage several tasks in v1.0
   send message "@here this is an automated message" in channel "general"
   send message "@here this is an automated message" in channel "general" in workspace "My Company"
 ```
-This can be used for any of the supported slash commands
-
-https://slack.com/intl/en-gb/help/articles/201259356-Use-built-in-slash-commands
+`send message`  can be used for any of the [supported slash commands](https://slack.com/intl/en-gb/help/articles/201259356-Use-built-in-slash-commands)
 
 - Start a call, with optional name
 ```
