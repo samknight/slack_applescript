@@ -23,6 +23,13 @@
 
     <command name="clear status" code="SLAKCLST" description="Clear your status">
     </command>
+    
+    <command name="set do not disturb" code="SLAKDNDO" description="turn on do not disturb; default 30 mins">
+      <direct-parameter type="text" description="for duration or until a time"/>
+    </command>
+    
+    <command name="clear do not disturb" code="SLAKDNDF" description="turn off do not disturb">
+     </command>
 
     <command name="focus main window" code="SLAKMNWN" description="Switch to main window">
     </command>
