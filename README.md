@@ -76,7 +76,7 @@ clear status # clears status
 set do not disturb # Default 30 minutes
 set do not disturb for 1 hour
 set do not disturb until 5pm
-clear do not disturb # clears status 
+clear do not disturb # clears do not disturb 
 ```
 
 - Set a topic
