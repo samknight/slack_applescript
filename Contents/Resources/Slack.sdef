@@ -19,6 +19,7 @@
     <command name="set status" code="SLAKSTAT" description="Set your status">
       <direct-parameter type="text" description="Status text"/>
 	  <parameter name="with icon" code="EMJI" optional="yes" type="text" description="Emoji icon code" />
+      <parameter name="until" code="UNTL" optional="yes" type="text" description="Time status should end" />
     </command>
 
     <command name="clear status" code="SLAKCLST" description="Clear your status">
@@ -30,6 +31,9 @@
     
     <command name="clear do not disturb" code="SLAKDNDF" description="turn off do not disturb">
      </command>
+
+    <command name="set as away" code="SLAKAWAY" description="Mark as away">
+    </command>
 
     <command name="focus main window" code="SLAKMNWN" description="Switch to main window">
     </command>
