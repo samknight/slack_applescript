@@ -6,10 +6,6 @@ Please consider buying me a coffee if this has made your work easier
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C31L438)
 
-## What's new
-
-Added Do Not Disturb functions and open channels now happens with slash commands including allowing to send messages from one room into another to save UI commands - channel names must be entered correctly. 
-
 ## Important note
 
 Please use v1.0.1 and above for Slack ~4.3.3 and above
@@ -69,6 +65,12 @@ The library can manage several tasks in v1.2
 set status "on lunch"
 set status "on lunch" with icon ":knife_fork_plate:"
 clear status # clears status 
+
+```
+IN BETA: Timed statuses - Known issue if mouse pointer is positioned over status dialog box
+```
+set status "on lunch" until "8:30 pm"
+set status "on lunch" with icon ":knife_fork_plate:" until "20:30"
 ```
 
 - Set do not disturb
@@ -77,6 +79,11 @@ set do not disturb # Default 30 minutes
 set do not disturb for 1 hour
 set do not disturb until 5pm
 clear do not disturb # clears do not disturb 
+```
+
+- Set yourself as away
+```
+set as away
 ```
 
 - Set a topic
