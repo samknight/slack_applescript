@@ -75,9 +75,8 @@ set status "on lunch" with icon ":knife_fork_plate:" until "20:30"
 
 - Set do not disturb
 ```
-set do not disturb # Default 30 minutes
-set do not disturb for 1 hour
-set do not disturb until 5pm
+set do not disturb "for 1 hour"
+set do not disturb "until 5pm"
 clear do not disturb # clears do not disturb 
 ```
 
