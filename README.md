@@ -37,12 +37,13 @@ all of the commands below can be accessed by nesting them under the script call
 The library can manage several tasks in v1.2
 
 - Send a message
+
+Must include either a channel name (#channel-name) or username (@user.name)
 ```
-  send message "@here this is an automated message"
-  send message "@here this is an automated message" in channel "general"
-  send message "@here this is an automated message" in channel "general" in workspace "My Company"
+  send message "#general this is an automated message"
+  send message "@line.manager this is an automated message"
+  send message "#general this is an automated message" in workspace "My Company"
 ```
-`send message`  can be used for any of the [supported slash commands](https://slack.com/intl/en-gb/help/articles/201259356-Use-built-in-slash-commands)
 
 - Switch workspaces
 ```
