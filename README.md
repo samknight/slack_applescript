@@ -12,11 +12,13 @@ Please use v1.0.1 and above for Slack ~4.3.3 and above
 
 ## To install
 ---
-Clone this repository into `~/Library/Script Libraries` (If this doesn't work try putting it in `~/Library/Scripting Libraries`)
-
-Change the folder name to `Slack.scptd`
+Clone this repository and unzip the Slack.zip archive into your `~/Library/Script Libraries`  (If this doesn't work try putting it in `~/Library/Scripting Libraries`)
 
 The scripts are now accessible globally. Documentation can be found in the script Library.
+
+## Contributing
+---
+The `src` file contains the source code - please make changes to this code and then export and zip the bundle.
 
 ## Applescript tutorial
 ---
