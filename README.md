@@ -83,9 +83,14 @@ set do not disturb "until 5pm"
 clear do not disturb # clears do not disturb 
 ```
 
-- Set yourself as away
+- Set yourself as away (this command will toggle your active/away status)
 ```
 set as away
+```
+
+- Set yourself as active
+```
+set as active
 ```
 
 - Set a topic
