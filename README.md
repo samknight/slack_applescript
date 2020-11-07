@@ -8,7 +8,7 @@ Please consider buying me a coffee if this has made your work easier
 
 ## Important note
 
-Please use v1.0.1 and above for Slack ~4.3.3 and above
+Please use v2 and above for Slack ~4.10 and above. v2 supports the new shortcuts menu in Slack. Please review the commands below to see the scripts that could not be made backwards compatible.
 
 ## To install
 ---
@@ -42,9 +42,10 @@ The library can manage several tasks in v1.2
 
 Must include either a channel name (#channel-name) or username (@user.name)
 ```
-  send message "#general this is an automated message"
-  send message "@line.manager this is an automated message"
-  send message "#general this is an automated message" in workspace "My Company"
+  # Not backwards compatible with v1 of slack_applescripts
+  send message "this is an automated message"
+  send message "this is an automated message" in channel "#general"
+  send message "this is an automated message" in channel "#general" in workspace "My Company"
 ```
 
 - Switch workspaces
@@ -58,8 +59,8 @@ Must include either a channel name (#channel-name) or username (@user.name)
 
 - Start a call, with optional name
 ```
+  # Most scripts are not backwards compatible with v1
   start call
-  start call "Company update"
   start call "Company update" in channel "general"
   start call "Company update" in channel "general" in workspace "My Company"
 ```
@@ -78,14 +79,20 @@ set status "on lunch" with icon ":knife_fork_plate:" until "20:30"
 
 - Set do not disturb
 ```
-set do not disturb "for 1 hour"
-set do not disturb "until 5pm"
+set do not disturb # Default time period
+set do not disturb for "1 hour" # Not backwards compatible with v1
+set do not disturb until "5pm" # Not backwards compatible with v1
 clear do not disturb # clears do not disturb 
 ```
 
 - Set yourself as away
 ```
 set as away
+```
+
+- Set yourself as active (New in v2)
+```
+set as active
 ```
 
 - Set a topic

@@ -11,9 +11,13 @@
     </command>
 	
     <command name="start call" code="SLAKCALL" description="Start a call">
-      <direct-parameter type="text" optional="yes" description="Name of call"/>
 	  <parameter name="in channel" code="CHNL" optional="yes" type="text" description="Channel to start call" />
 	  <parameter name="in workspace" code="WKSP" optional="yes" type="text" description="Workspace to start call" />
+    </command>
+    
+    <command name="start call in channel" code="SLAKCLCH" description="Start a call">
+      <direct-parameter type="text" description="The channel to switch to"/>
+      <parameter name="in workspace" code="WKSP" optional="yes" type="text" description="Workspace to start call" />
     </command>
 	
     <command name="set status" code="SLAKSTAT" description="Set your status">
@@ -25,14 +29,24 @@
     <command name="clear status" code="SLAKCLST" description="Clear your status">
     </command>
     
-    <command name="set do not disturb" code="SLAKDNDO" description="turn on do not disturb; default 30 mins">
-      <direct-parameter type="text" description="for duration or until a time"/>
+    <command name="set do not disturb for" code="SLAKDNDF" description="turn on do not disturb; default 30 mins">
+      <direct-parameter type="text" description="for duration"/>
     </command>
     
-    <command name="clear do not disturb" code="SLAKDNDF" description="turn off do not disturb">
+    <command name="set do not disturb until" code="SLAKDNDU" description="turn on do not disturb; default 30 mins">
+      <direct-parameter type="text" description="until a time"/>
+    </command>
+
+    <command name="set do not disturb" code="SLAKDNDO" description="turn on do not disturb; default 30 mins">
+    </command>
+    
+    <command name="clear do not disturb" code="SLAKDNDC" description="turn off do not disturb">
      </command>
 
     <command name="set as away" code="SLAKAWAY" description="Mark as away">
+    </command>
+    
+    <command name="set as active" code="SLAKACTV" description="Mark as active">
     </command>
 
     <command name="focus main window" code="SLAKMNWN" description="Switch to main window">
