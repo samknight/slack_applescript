@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>Slack</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0.0b1</string>
+	<string>2.0.0b2</string>
 	<key>OSAScriptingDefinition</key>
 	<string>Slack</string>
 	<key>WindowState</key>
