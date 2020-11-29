@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>Slack</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0.0b2</string>
+	<string>2.0.0.rc1</string>
 	<key>OSAScriptingDefinition</key>
 	<string>Slack</string>
 	<key>WindowState</key>
@@ -23,9 +23,9 @@
 		<key>name</key>
 		<string>ScriptWindowState</string>
 		<key>positionOfDivider</key>
-		<real>467</real>
+		<real>464</real>
 		<key>savedFrame</key>
-		<string>175 105 922 672 0 0 1280 777 </string>
+		<string>175 106 922 669 0 0 1280 775 </string>
 		<key>selectedTab</key>
 		<string>result</string>
 	</dict>
