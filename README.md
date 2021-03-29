@@ -58,12 +58,15 @@ Must include either a channel name (#channel-name) or username (@user.name)
 ```
 
 - Start a call, with optional name
+We have not been able to test slack calls in the latest version due to it being a premium Slack feature
+
 ```
   # Most scripts are not backwards compatible with v1
   start call
   start call "Company update" in channel "general"
   start call "Company update" in channel "general" in workspace "My Company"
 ```
+
 - Set a status
 ```
 set status "on lunch"
@@ -72,9 +75,10 @@ clear status # clears status
 
 ```
 IN BETA: Timed statuses - Known issue if mouse pointer is positioned over status dialog box
+
+Only 24 hour clock seems to be working on my version. This could be my slack settings. Feel free to test 8:31pm in the example below
 ```
-set status "on lunch" until "8:30 pm"
-set status "on lunch" with icon ":knife_fork_plate:" until "20:30"
+set status "on lunch" with icon ":knife_fork_plate:" until "20:31"
 ```
 
 - Set do not disturb
