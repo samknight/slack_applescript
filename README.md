@@ -2,10 +2,6 @@
 
 This bundle allows you to automate actions in Slack
 
-Please consider buying me a coffee if this has made your work easier
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C31L438)
-
 ## Important note
 
 Please use v2 and above for Slack ~4.10 and above. v2 supports the new shortcuts menu in Slack. Please review the commands below to see the scripts that could not be made backwards compatible.
